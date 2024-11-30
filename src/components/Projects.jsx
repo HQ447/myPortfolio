@@ -46,7 +46,11 @@ const Projects = () => {
                 <img className=" rounded-3xl" src={content.image} alt="..." />
                 <div className="flex flex-col gap-1 mt-2">
                   <h5 className="font-bold font-Poppins">{content.title}</h5>
-                  <a href={} className="font-bold text-gray self-end">
+                  <a
+                    href={content.link}
+                    target="_blank"
+                    className="font-bold text-gray self-end"
+                  >
                     <button>Visit</button>
                   </a>
                 </div>

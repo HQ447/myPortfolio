@@ -22,6 +22,8 @@ import ecommerce from "./assets/images/projects/ecommerce.png";
 import food from "./assets/images/projects/food.png";
 import person_project from "./assets/images/projects/person.png";
 
+import cv from "./assets/cv.pdf";
+
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
 import avatar2 from "./assets/images/Testimonials/avatar2.png";
 import avatar3 from "./assets/images/Testimonials/avatar3.png";
@@ -67,6 +69,7 @@ export const content = {
     firstName: "Hammad",
     LastName: "Ahmad",
     btnText: "Download Resume",
+    file: cv,
     image: Hero_person,
     hero_content: [
       {
