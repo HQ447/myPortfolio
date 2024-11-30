@@ -65,11 +65,11 @@ export const content = {
     image: Hero_person,
     hero_content: [
       {
-        count: "8+",
+        count: "2+",
         text: "Years of Experinse in Web development",
       },
       {
-        count: "20+",
+        count: "10+",
         text: "Projects Worked in my career",
       },
     ],
@@ -79,29 +79,30 @@ export const content = {
     subtitle: "MY TOP SKILLS",
     skills_content: [
       {
-        name: "Figma",
-        para: "Lorem ipsum text  dummy",
-        logo: figma,
-      },
-      {
         name: "Node js",
         para: "Lorem ipsum text  dummy",
         logo: nodejs,
       },
       {
-        name: "Adobe Photoshop",
+        name: "Express js",
         para: "Lorem ipsum text  dummy",
-        logo: ps,
+        logo: nodejs,
       },
+
       {
         name: "React js",
         para: "Lorem ipsum text  dummy",
         logo: reactjs,
       },
       {
-        name: "Sketch",
+        name: "MongoDB",
         para: "Lorem ipsum text  dummy",
         logo: sketch,
+      },
+      {
+        name: "PostGray SQL",
+        para: "Lorem ipsum text  dummy",
+        logo: python,
       },
       {
         name: "Python",
@@ -194,14 +195,14 @@ export const content = {
     subtitle: "GET IN TOUCH",
     social_media: [
       {
-        text: "codeaprogram@gmail.com",
+        text: "hamadqur447@gmail.com",
         icon: GrMail,
-        link: "mailto:codeaprogram@gmail.com",
+        link: "mailto:hamadqur447@gmail.com",
       },
       {
-        text: "+91 1234 56778",
+        text: "+92 341 1918094",
         icon: MdCall,
-        link: "https://wa.me/1234567890",
+        link: `https://wa.me/+923411918094`,
       },
       {
         text: "codeaprogram",
