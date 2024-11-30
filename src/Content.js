@@ -4,17 +4,22 @@ import Hero_person from "./assets/images/Hero/person.png";
 import figma from "./assets/images/Skills/figma.png";
 import sketch from "./assets/images/Skills/sketch.png";
 import ps from "./assets/images/Skills/ps.png";
+
 import reactjs from "./assets/images/Skills/react.png";
-import nodejs from "./assets/images/Skills/node.png";
+import nodejs from "./assets/images/Skills/nodejs.png";
+import expressjs from "./assets/images/Skills/express1.png";
+import MongoDB from "./assets/images/Skills/mongo.png";
+import PostGray from "./assets/images/Skills/postgray.png";
 import python from "./assets/images/Skills/python.png";
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
 import services_logo3 from "./assets/images/Services/logo3.png";
 
-import project1 from "./assets/images/projects/img1.png";
+import eduai from "./assets/images/projects/eduai.png";
 import project2 from "./assets/images/projects/img2.png";
-import project3 from "./assets/images/projects/img3.png";
+import ecommerce from "./assets/images/projects/ecommerce.png";
+import food from "./assets/images/projects/food.png";
 import person_project from "./assets/images/projects/person.png";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
@@ -86,7 +91,7 @@ export const content = {
       {
         name: "Express js",
         para: "Lorem ipsum text  dummy",
-        logo: nodejs,
+        logo: expressjs,
       },
 
       {
@@ -97,12 +102,12 @@ export const content = {
       {
         name: "MongoDB",
         para: "Lorem ipsum text  dummy",
-        logo: sketch,
+        logo: MongoDB,
       },
       {
         name: "PostGray SQL",
         para: "Lorem ipsum text  dummy",
-        logo: python,
+        logo: PostGray,
       },
       {
         name: "Python",
@@ -122,12 +127,12 @@ export const content = {
         logo: services_logo1,
       },
       {
-        title: "ui / ux DESIGNING",
+        title: "Mobile App Development",
         para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
         logo: services_logo2,
       },
       {
-        title: "PhotoShop Editing",
+        title: "Software Testing",
         para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
         logo: services_logo3,
       },
@@ -139,16 +144,24 @@ export const content = {
     image: person_project,
     project_content: [
       {
-        title: "Gym Website",
-        image: project1,
+        title: "Education AI",
+        image: eduai,
+        link: "https://edu-ai-ym44.vercel.app/",
       },
       {
-        title: "Social Media web",
+        title: "Food Delivery Website",
+        image: food,
+        link: "https://custo-care.vercel.app/",
+      },
+      {
+        title: "Ecommerce Website",
+        image: ecommerce,
+        link: "https://estore-six-umber.vercel.app/",
+      },
+      {
+        title: "Startup Website",
         image: project2,
-      },
-      {
-        title: "Creative Website",
-        image: project3,
+        link: "",
       },
     ],
   },

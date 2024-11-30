@@ -43,12 +43,12 @@ const Projects = () => {
                 key={i}
                 className="bg-white rounded-3xl p-5 border-b-8 border-[#FAF9FD] h-fit"
               >
-                <img src={content.image} alt="..." />
+                <img className=" rounded-3xl" src={content.image} alt="..." />
                 <div className="flex flex-col gap-1 mt-2">
                   <h5 className="font-bold font-Poppins">{content.title}</h5>
-                  <button className="font-bold text-gray self-end">
-                    Visit
-                  </button>
+                  <a href={} className="font-bold text-gray self-end">
+                    <button>Visit</button>
+                  </a>
                 </div>
               </SwiperSlide>
             ))}
