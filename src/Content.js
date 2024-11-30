@@ -205,9 +205,9 @@ export const content = {
         link: `https://wa.me/+923411918094`,
       },
       {
-        text: "codeaprogram",
+        text: "Hammad Qureshi",
         icon: BsInstagram,
-        link: "https://www.instagram.com/codeaprogram/",
+        link: "https://www.instagram.com/hammad.447/",
       },
     ],
   },
